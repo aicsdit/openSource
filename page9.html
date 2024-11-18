@@ -1,0 +1,316 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+<style type="text/css">
+	body{margin:50px auto;
+	background-color:#dfffff;}
+	#head a{
+	text-decoration:none;
+	}
+	#head{
+	font:2.0em "안상수2006굵은";
+	text-align:center;}
+	#topMenu{
+	width:780px;
+	height:100px;
+	margin:10px auto;
+	padding: 10px;
+	}
+	#topMenu ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	
+	}
+	#topMenu ul li{
+	color:#ffffcc;
+	background-color:#00ccff;
+	float:left;
+	line-height:30px;
+	vertical-align: middle;
+	text-align:center;
+	position:relative;
+
+	}
+	.topmenuli:hover .menulink{
+	background-color:#ffffcc;
+	color:#330099;
+	
+	}
+	.topmenuli:hover .submenu{
+	height:90px;
+	}
+	.submenulink{
+	color:#6633ff;
+	background-color:#99ffcc;
+	border:solid 1px black;
+	margin-top:-1px;
+	
+
+	}
+	.menulink, .submenulink
+	{
+	text-decoration:none;
+	display:block;
+	width:120px;
+	font:1.3em "안상수2006굵은"; 
+	}
+	.submenu
+	{
+	position:absolute;
+	height:0px;
+	overflow:hidden;
+	transition:height .1s;
+	-webkit-transition: height .2s;
+	}
+	#skrtl{
+	position:relative;
+	left:500px;
+	margin:auto;
+	}
+	.mainbook{
+	position:fixed;
+	left:90%;
+
+	}
+	.mainbook2{
+	position:fixed;
+	left:90%;
+	top:500px;
+	}
+	.mainbook3{
+	position:fixed;
+	left:90%;
+	top:601px;
+	}
+
+	.skrtlqhrtb{
+	width:1600px;
+	margin:20px auto;
+	
+	}
+	.skrtlqhrtb caption{
+	font-family:"HY동녘B";
+	font-size:25px;
+	margin:0px auto 20px auto;
+	border:2px solid black;
+	background-color:white;
+	color:black;
+	width:80px;
+	border-radius:20px;
+	
+	}
+		body,th,td{
+	font:0.9em "맑은 고딕",돋움,sans-serif;
+	font-weight:bold;
+	}
+	h1{
+	text-align:center;
+	}
+	#tabledesign{
+	border-collapse:collapse;
+	margin:20px auto;
+	}
+	#tabledesign caption{
+	background:url(images/title_bbs.png) no-repeat;
+	width:397px;
+	height:55px;
+	}
+	#tabledesign caption span{
+	display:none;
+	}
+	
+	#tabledesign th{
+	height:34px;
+	background:url(images/table_header_bg.png) repeat-x center top;
+	
+	}
+	#tabledesign th:first-child{
+	width:50px;
+	background:url(images/table_header_bg.png) no-repeat left top;
+	}
+	#tabledesign th:nth-child(2){
+	width:70px;
+	}
+	#tabledesign th:nth-child(3){
+	width:370px;
+	}
+	#tabledesign th:nth-child(4){
+	width:100px;
+	}
+	#tabledesign th:nth-child(5){
+	width:100px;
+	}
+	#tabledesign th span{
+	display:block;
+	position:relative;
+	top:-2px;
+	}
+	#tabledesign td{
+	padding:4px 8px;
+	text-align:center;
+	border-bottom:1px solid #333;
+	background:url(images/bar7_1.png) no-repeat right bottom;
+	}
+	#tabledesign td.leftstyle{
+	text-align:left;
+	}
+	.btnview{
+	padding:5px 20px;
+	background-color:#9966ff;
+	color:#000;
+	border-radius:5px;
+	cursor:pointer;
+	border:2px solid #336666;
+	font-weight:bold;
+
+	}
+	.btnview:hover{
+	background-color:#333;
+	color:#fff;
+	}
+	#tabledesign tr:hover{
+	background-color:#eaeaea;
+	}
+	#logo1{
+	position:absolute;
+	top:250px;
+	left:80px;
+	
+	}
+	#logo2{
+	position:absolute;
+	top:250px;
+	right:80px;
+	}
+
+	</style>
+  <title>Document</title>
+ </head>
+ <body>
+  
+	<header>
+		<img src="image/20150531_221143.jpg" width="150" height="140" id="skrtl">
+		<h1 id="head"><a href="index.html">피슁</a></h1>
+	</header>
+	<img src="image/logo2.png" width="200px" height="700px" id="logo1">
+	<img src="image/logo3.png" width="200px" height="700px" id="logo2">
+	<div  id="topMenu">
+		<ul>
+			<li class = "topmenuli"><a href="index.html" class="menulink">낚시의 종류</a>
+				<ul class="submenu">
+				<li ><a href="page1.html" class="submenulink">장소에 따라</a></li>
+				<li><a href="page2.html" class="submenulink">방법에 따라</a></li>
+				</ul>
+				</li>
+			<li class="topmenuli"><a href="css.html" class="menulink">낚시의 명소</a>
+				<ul class="submenu">
+				<li><a href="page3.html" class="submenulink">국내 명소</a></li>
+				<li><a href="page4.html" class="submenulink">국외 명소</a></li>
+				</ul>
+				</li>
+			<li class="topmenuli"><a href="#" class="menulink">낚시의 산물</a>
+				<ul class="submenu">
+				<li><a href="page5.html" class="submenulink">물고기 종류</a></li>
+				<li><a href="page6.html" class="submenulink">그 외 종류</a></li>
+				</ul>
+				</li>
+			<li class="topmenuli"><a href="#" class="menulink">용품 소개</a>
+			<ul class="submenu">
+				<li><a href="page7.html" class="submenulink">낚시 장비</a></li>
+				<li><a href="page8.html" class="submenulink">낚시복</a></li>
+				<li><a href="page9.html" class="submenulink">그 외 장비</a></li>
+				</ul>
+				</li>
+			<li class="topmenuli"><a href="#" class="menulink">관련 사이트</a>
+			<ul class="submenu">
+				<li><a href="page10.html" class="submenulink">낚시 용품 쇼핑몰</a></li>
+				<li><a href="page11.html" class="submenulink">낚시 개인 사이트</a></li>
+				
+				</ul>
+				</li>
+			<li class="topmenuli"><a href="#" class="menulink">낚시의 신</a></li>
+			<ul class="submenu">
+				<li><a class="submenulink">관련 동영상</a></li>
+				
+				</ul>
+				</li>
+
+		</ul>
+	</div>
+	<a  href="http://book.naver.com/bookdb/book_detail.nhn?bid=6280915"><img src="image/mainbook.jpg" width="80px" height="100px" class="mainbook"></a>
+		<a href="http://book.naver.com/bookdb/book_detail.nhn?bid=9066136"><img src="image/mainbook2.jpg" width="80px" height="100px" class="mainbook2"></a>
+		<a href="http://book.naver.com/bookdb/book_detail.nhn?bid=7202723"><img src="image/mainbook3.jpg" width="80px" height="100px" class="mainbook3"></a>
+
+		<table id="tabledesign">
+			<caption><span>자료 게시판</span></caption>
+			<tr>
+			  <th><span>번호</span></th>
+			  <th><span>이름</span></th>
+			  <th><span>소개</span></th>
+			  <th><span>주소</span></th>
+			  <th>이동</th>
+			</tr>
+			<tr>
+			  <td>1</td>
+			  <td>평화낚시</td>
+			  <td class="leftstyle">낚시용품세트 및 장비 기획특가! </td>
+			  
+			  <td>www.pcfishing.co.kr</td>
+			  <td><a href="http://www.pcfishing.co.kr"><input type="button" value="GO!" class="btnview"/></a></td>
+			</tr>
+			<tr>
+			  <td>2</td>
+			  <td>나이스 전기</td>
+			  <td class="leftstyle">신제품 할인 특가판매 판매중</td>
+			  
+			  <td>storefarm.naver.com/nicelemp</td>
+			  <td><a href="http://storefarm.naver.com/nicelemp"><input type="button" value="GO!" class="btnview"/></a></td>
+			</tr>
+			<tr>
+			  <td>3</td>
+			  <td>신신낚시</td>
+			  <td class="leftstyle">루어낚시, 민물낚시, 선상낚시, 각종용품판매중</td>
+			 
+			  <td>http://www.sinsinfishing.co.kr</td>
+			  <td><a href="http://www.sinsinfishing.co.kr"><input type="button" value="GO!" class="btnview"/></a></td>
+			</tr>
+			<tr>
+			  <td>4</td>
+			  <td>피싱메이트</td>
+			  <td class="leftstyle">대한민국 NO.1 신규회원,VIP 최대 10%적립!</td>
+			  
+			  <td>http://www.fishingmate.co.kr</td>
+			  <td><a href="http://www.fishingmate.co.kr"><input type="button" value="GO!" class="btnview"/></a></td>
+			</tr>
+			<tr>
+			  <td>5</td>
+			  <td>부자낚시</td>
+			  <td class="leftstyle">바다, 민물 낚시용품 할인, 시나모 정품</td>
+			  
+			  <td>http://www.bujafish.co.kr</td>
+			  <td><a href="http://www.bujafish.co.kr"><input type="button" value="GO!" class="btnview"/></a></td>
+			</tr>
+			<tr>
+			  <td>6</td> 
+			  <td>머털낚시</td>
+			  <td class="leftstyle">NO.1낚시, 1600평 초대형 낚시용품 쇼핑몰</td>
+			
+			  <td>http://www.wfish.co.kr</td>
+			  <td><a href="http://www.wfish.co.kr"><input type="button" value="GO!" class="btnview"/></a></td>
+			</tr>
+			<tr>
+			  <td>7</td> 
+			  <td>365낚시마트</td>
+			  <td class="leftstyle">낚시대 전문 생산업체, 바다 ,민물 ,루어 낚시용품</td>
+			 
+			  <td>http://samyuko.kr</td>
+			  <td><a href="http://samyuko.kr"><input type="button" value="GO!" class="btnview"/></a></td>
+			</tr>
+	
+		
+
+
+ </body>
+</html>

@@ -1,0 +1,595 @@
+body{margin:50px auto;
+	background:url(mainpic.jpg) no-repeat;
+	background-size:100%100%;}
+	#head{
+	font:2.0em "안상수2006굵은";
+	text-align:center;}
+	#topMenu{
+	width:780px;
+	height:100px;
+	margin:10px auto;
+	padding: 10px;
+	}
+	#topMenu ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	
+	}
+	#topMenu ul li{
+	color:#ffffcc;
+	background-color:#00ccff;
+	float:left;
+	line-height:30px;
+	vertical-align: middle;
+	text-align:center;
+	position:relative;
+
+	}
+	.topmenuli:hover .menulink{
+	background-color:#ffffcc;
+	color:#330099;
+	
+	}
+	.topmenuli:hover .submenu{
+	height:90px;
+	}
+	.submenulink{
+	color:#6633ff;
+	background-color:#99ffcc;
+	border:solid 1px black;
+	margin-top:-1px;
+	
+
+	}
+	.menulink, .submenulink
+	{
+	text-decoration:none;
+	display:block;
+	width:120px;
+	font:1.3em "안상수2006굵은"; 
+	}
+	.submenu
+	{
+	position:absolute;
+	height:0px;
+	overflow:hidden;
+	transition:height .1s;
+	-webkit-transition: height .2s;
+	}
+	#skrtl{
+	position:relative;
+	left:500px;
+	margin:auto;
+	}
+	.book2{
+	position:relative;
+	bottom:300px;
+	}
+	.book3{
+	position:relative;
+	bottom:180px;
+	right:80px;
+	}
+	#mainbook{
+	border-style:none;
+	}
+	.book2:hover{
+	opacity:0.7;
+	target:"mainbook";
+	}
+	.mainbook{
+	position:fixed;
+	left:90%;
+
+	}
+	.mainbook2{
+	position:fixed;
+	left:90%;
+	top:500px;
+	}
+	.mainbook3{
+	position:fixed;
+	left:90%;
+	top:601px;
+	}
+
+
+	
+	.topic1{
+	margin:10px 20px;
+	float:left;
+	border:2px solid black;
+
+	}
+	#topics{
+	
+	border:2px solid green;
+	margin:20px auto;
+	width:900px;
+	height:500px;
+	border-radius:20px;
+	background-color:white;
+	}
+	#topicbody{
+	font-size:0.8em;
+	display:inline;
+	margin-top:0px;
+	}
+	.topichead{
+	margin:10px;
+	}
+	#maintable{
+	margin:0px auto;
+	}
+	#maintable tr img:hover{
+	opacity:0.7;
+	}
+	#head a{
+	text-decoration:none;
+	}
+	#logo1{
+	position:absolute;
+	top:250px;
+	left:50px;
+	
+	}
+	#logo2{
+	position:absolute;
+	top:250px;
+	right:50px;
+	}
+	
+	#jongryu{
+	width:500px;
+	height:400px;
+	margin:5px auto;
+	
+	}
+	.jangsopic{
+	box-shadow:0px 0px 20px gray;
+	}
+	.jangso{
+	font-family:"HY울릉도M";
+	border:2px solid #6666ff;
+	padding:3px;
+	box-shadow:0px 0px 15px gray;
+	line-height:25px;
+	}
+	.jangsomenu{
+	border:1px solid #00ffff;
+	padding:10px;
+	width:80px;
+	text-align:center;
+	background-color:#6600ff;
+	border-radius:20px;
+	font-size:1.1em;
+	color:white;
+	}
+
+#head a{
+	text-decoration:none;
+	}
+	#jongryu{
+	width:500px;
+	height:400px;
+	margin:5px auto;
+	
+	}
+	.jangsopic{
+	box-shadow:0px 0px 20px gray;
+	}
+	.jangso{
+	font-family:"HY울릉도M";
+	border:2px solid #6666ff;
+	padding:3px;
+	box-shadow:0px 0px 15px gray;
+	line-height:25px;
+	}
+	.jangsomenu{
+	border:1px solid #00ffff;
+	padding:10px;
+	width:80px;
+	text-align:center;
+	background-color:#6600ff;
+	border-radius:20px;
+	font-size:1.1em;
+	color:white;
+	}
+	.myungso{
+	width:960px;
+	height:400px;
+	margin:5px auto;
+	
+	}
+	.myungsopic{
+	box-shadow:0px 0px 20px gray;
+	float:left;
+	margin-right:10px;
+	z-index:2;
+	display:block;
+	position:relative;
+	-webkit-transition-property:width,height;
+   -webkit-transition-duration:300ms;
+
+
+	}
+	.myungsopic:hover{
+	opacity:0.7;
+	}
+
+	
+	}
+	.jangso{
+	font-family:"HY울릉도M";
+	border:2px solid #6666ff;
+	padding:3px;
+	box-shadow:0px 0px 15px gray;
+	line-height:25px;
+	}
+	.myungsomenu{
+	color:#fef4e9;
+	background:#f78d1d;
+	width:80px;
+	text-align:center;
+	font-size:1.2em;
+	text-shadow:0px 1px 1px rgba(0,0,0,0.3);
+	border-radius:0.8em;
+	box-shadow:0px 1px 2px rgba(0,0,0,0.2);
+	padding:0.5em 2em 0.55em;
+	margin:20px 80px 0px 80px ;
+	float:left;
+	}
+	#myungsotb{
+	margin:5px auto;
+	font-family:"HY울릉도M";
+	margin-bottom:80px;
+	margin-top:3px;
+
+	
+	}
+	#myungsotb .myungsosub{
+	border-right:3px solid #99ccff;
+	border-left:3px solid #99ccff;
+	padding:0px 75px 0px 75px;
+	}
+	.topic1{
+	margin:10px 20px;
+	float:left;
+	border:2px solid black;
+
+	}
+	#topics{
+	
+	border:2px solid green;
+	margin:20px auto;
+	width:900px;
+	height:500px;
+	border-radius:20px;
+	}
+	#topicbody{
+	font-size:0.8em;
+	display:inline;
+	margin-top:0px;
+	}
+	.topichead{
+	margin:10px;
+	}
+	#maintable{
+	margin:0px auto;
+	}
+	#maintable tr img:hover{
+	opacity:0.7;
+	}
+	#head a{
+	text-decoration:none;
+	}
+		.myungso{
+	width:960px;
+	height:400px;
+	margin:5px auto;
+	
+	}
+	.myungsopic{
+	box-shadow:0px 0px 20px gray;
+	float:left;
+	margin-right:10px;
+	z-index:2;
+	display:block;
+	position:relative;
+	-webkit-transition-property:width,height;
+   -webkit-transition-duration:300ms;
+
+
+	}
+	.myungsopic:hover{
+	opacity:0.7;
+	}
+
+	
+	}
+	.jangso{
+	font-family:"HY울릉도M";
+	border:2px solid #6666ff;
+	padding:3px;
+	box-shadow:0px 0px 15px gray;
+	line-height:25px;
+	}
+	.myungsomenu{
+	color:#fef4e9;
+	background:#f78d1d;
+	width:80px;
+	text-align:center;
+	font-size:1.2em;
+	text-shadow:0px 1px 1px rgba(0,0,0,0.3);
+	border-radius:0.8em;
+	box-shadow:0px 1px 2px rgba(0,0,0,0.2);
+	padding:0.5em 2em 0.55em;
+	margin:20px 80px 0px 80px ;
+	float:left;
+	}
+	#myungsotb{
+	margin:5px auto;
+	font-family:"HY울릉도M";
+	margin-bottom:80px;
+	margin-top:3px;
+
+	
+	}
+	#myungsotb .myungsosub{
+	border-right:3px solid #99ccff;
+	border-left:3px solid #99ccff;
+	padding:0px 75px 0px 75px;
+	}
+	.myungsosub{
+	width:120px;
+	background-color:white;
+	padding:10px;
+	font-size:1.1em;
+	
+
+
+	}
+	.anfrhrltb{
+	margin:30px auto;
+	width:900px;
+	
+	}
+	#anfrhrlhead{
+	margin:0px auto;
+	width:900px;
+	}
+	.anfrhrltb img{
+	position:relative;
+	left:35%;
+	}
+	.anfrhrlname{
+	position:relative;
+	left:35%
+	}
+	#anfrhrllist{
+	margin:30px auto;
+	width:400px;
+	
+	}
+	#anfrhrllist li{
+	list-style:none;
+	display:inline;
+	font-family:"안상수2006굵은";
+	font-size:1.2em;
+	color:blue;
+	padding:10px;
+	}
+	#anfrhrllist li a{
+	text-decoration:none;
+
+	}
+	.anfrhrltb{
+	margin:30px auto;
+	width:900px;
+	
+	}
+	#anfrhrlhead{
+	margin:0px auto;
+	width:900px;
+	}
+	.anfrhrltb img{
+	position:relative;
+	left:35%;
+	}
+	.anfrhrlname{
+	position:relative;
+	left:35%
+	}
+	#anfrhrllist{
+	margin:30px auto;
+	width:400px;
+	
+	}
+	#anfrhrllist li{
+	list-style:none;
+	display:inline;
+	font-family:"안상수2006굵은";
+	font-size:1.2em;
+	color:blue;
+	padding:10px;
+	}
+	#anfrhrllist li a{
+	text-decoration:none;
+
+	}
+	#tksanfdv{
+	width:300px;
+	margin:0px auto;
+	}
+	#tksanfdv p{
+	background-color:#66ffff;
+	color:black;
+	font-family:"안상수2006굵은";
+	text-align:center;
+	font-size:1.3em;
+	border-radius:15px;
+	box-shadow:3px 3px 9px gray;
+	}
+	.anfrhrltb{
+	margin:30px auto;
+	width:900px;
+	
+	}
+	#anfrhrlhead{
+	margin:0px auto;
+	width:900px;
+	}
+	.anfrhrltb img{
+	position:relative;
+	left:35%;
+	}
+	.anfrhrlname{
+	position:relative;
+	left:35%
+	}
+	#anfrhrllist{
+	margin:30px auto;
+	width:400px;
+	
+	}
+	#anfrhrllist li{
+	list-style:none;
+	display:inline;
+	font-family:"안상수2006굵은";
+	font-size:1.2em;
+	color:blue;
+	padding:10px;
+	}
+	#anfrhrllist li a{
+	text-decoration:none;
+
+	}
+	#tksanfdv{
+	width:580px;
+	margin:15px auto;
+	}
+	#tksanfdv img{
+	
+	}
+	#tksanfdv p{
+	background-color:#ff00cc;
+	color:#ffffff;
+	font-family:"안상수2006굵은";
+	text-align:center;
+	font-size:1.8em;
+	border-radius:15px;
+	box-shadow:3px 3px 9px gray;
+	margin:15px auto;
+	width:300px;
+	}
+		.skrtlqhrtb{
+	width:1600px;
+	margin:20px auto;
+	
+	}
+	.skrtlqhrtb caption{
+	font-family:"HY동녘B";
+	font-size:25px;
+	margin:0px auto 20px auto;
+	border:2px solid black;
+	background-color:white;
+	color:black;
+	width:80px;
+	border-radius:20px;
+	
+	}
+	
+	.skrtlqhrtb{
+	width:1600px;
+	margin:20px auto;
+	
+	}
+	.skrtlqhrtb caption{
+	font-family:"HY동녘B";
+	font-size:25px;
+	margin:0px auto 20px auto;
+	border:2px solid black;
+	background-color:white;
+	color:black;
+	width:80px;
+	border-radius:20px;
+	
+	}
+		body,th,td{
+	font:0.9em "맑은 고딕",돋움,sans-serif;
+	font-weight:bold;
+	}
+	h1{
+	text-align:center;
+	}
+	#tabledesign{
+	border-collapse:collapse;
+	margin:20px auto;
+	}
+	#tabledesign caption{
+	background:url(images/title_bbs.png) no-repeat;
+	width:397px;
+	height:55px;
+	}
+	#tabledesign caption span{
+	display:none;
+	}
+	
+	#tabledesign th{
+	height:34px;
+	background:url(images/table_header_bg.png) repeat-x center top;
+	
+	}
+	#tabledesign th:first-child{
+	width:50px;
+	background:url(images/table_header_bg.png) no-repeat left top;
+	}
+	#tabledesign th:nth-child(2){
+	width:70px;
+	}
+	#tabledesign th:nth-child(3){
+	width:370px;
+	}
+	#tabledesign th:nth-child(4){
+	width:100px;
+	}
+	#tabledesign th:nth-child(5){
+	width:100px;
+	}
+	#tabledesign th span{
+	display:block;
+	position:relative;
+	top:-2px;
+	}
+	#tabledesign td{
+	padding:4px 8px;
+	text-align:center;
+	border-bottom:1px solid #333;
+	background:url(images/bar7_1.png) no-repeat right bottom;
+	}
+	#tabledesign td.leftstyle{
+	text-align:left;
+	}
+	.btnview{
+	padding:5px 20px;
+	background-color:#9966ff;
+	color:#000;
+	border-radius:5px;
+	cursor:pointer;
+	border:2px solid #336666;
+	font-weight:bold;
+
+	}
+	.btnview:hover{
+	background-color:#333;
+	color:#fff;
+	}
+	#tabledesign tr:hover{
+	background-color:#eaeaea;
+	}
+		#youtube{
+	margin-left:30%;
+	margin-top:80px;
+	border:5px solid white;
+	}
